@@ -1,0 +1,28 @@
+{
+    "folders": [
+		{
+			"path": "../simmon game/simon.css"
+		},
+		{
+			"path": "../ludo"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "../python"
+		},
+		{
+			"path": "../git and github"
+		},
+		{
+			"path": "../calculator"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "ludo"
+    }
+}

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+#wrapper {
+    height: 100Vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-image: linear-gradient(red, blue);
+}
+
+.dice_ {
+    z-index: 6;
+}
+
+.container {
+    display: flex;
+    margin-top: 0.2rem;
+    gap: 10px;
+    height: 100%;
+}
+
+.left-section {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    width: 20%;
+    /* height: 90%; */
+    margin-left: 2px;
+}
+
+.middle-section {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    width: 60%;
+    /* height: 90%; */
+}
+
+.right-section {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    width: 20%;
+    /* height: 90%; */
+    padding: 10px;
+}
+
+.heading {
+    background-color: lightgreen;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.heading h1 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.upper {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dice_ {
+    position: absolute;
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    position: relative;
+    gap: 2px;
+    /* padding:40px; */
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.right {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px black;
+    padding: 5px;
+}
+
+form button {
+    margin: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px black;
+}
+
+.left-section button {
+    /* z-index: 11; */
+    position: absolute;
+    top: 220px;
+    left: 80px;
+}
+
+.dice_ {
+    /* z-index: -1; */
+    position: absolute;
+    left: 60px;
+    top: 100px;
+}
+
+.player {
+    position: relative;
+    bottom: -400px;
+    left: 70px;
+}
+
+.player img {
+    width: 20px;
+}
+
+.player1 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.player2 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    box-shadow: 3px 3px 5px black;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

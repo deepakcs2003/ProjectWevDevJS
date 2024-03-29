@@ -1,0 +1,38 @@
+    div {
+        width: 100%;
+        height: 50px;
+        background-color: whitesmoke;
+        border: 3px solid black;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    @media(width:400px) {
+        div {
+            background-color: yellow;
+        }
+    }
+    
+    @media(min-width:1000px) {
+        div {
+            background-color: red;
+        }
+    }
+    
+    @media(max-width:300px) {
+        div {
+            background-color: green;
+        }
+    }
+    
+    @media(min-width:500px) and (max-width:700px) {
+        div {
+            background-color: blue;
+        }
+    }
+    
+    @media(orientation:landscape) {
+        div {
+            background-color: coral;
+        }
+    }

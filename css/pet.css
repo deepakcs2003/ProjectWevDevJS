@@ -1,0 +1,40 @@
+.cards {
+    width: 400px;
+    border: 4px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-image: round;
+    text-align: center;
+}
+
+.pets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main {
+    color: red;
+}
+
+.pets {
+    flex-wrap: wrap;
+}
+
+
+}

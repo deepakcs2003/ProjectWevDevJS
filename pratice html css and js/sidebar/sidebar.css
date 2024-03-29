@@ -1,0 +1,57 @@
+.btn {
+    background-color: #000000b3;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #000000b3;
+    transition: 0.5s;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    display: block;
+    background-color: rgb(15, 6, 6);
+    width: 0;
+    height: 700px;
+    left: 0px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.element {
+    width: 250px;
+    height: 40px;
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.element:hover {
+    color: rgb(54, 137, 209);
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.img:hover {
+    background-color: pink;
+}

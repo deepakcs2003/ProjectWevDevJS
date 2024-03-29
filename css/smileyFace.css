@@ -1,0 +1,57 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#div2 {
+    width: 90%;
+    height: 90%;
+    background-color: #fc9d03;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 10px;
+    box-shadow: 5px 3px 10px black;
+}
+
+#div3 {
+    width: 80px;
+    height: 30px;
+    background-color: #fc3503;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -ms-border-radius: 0px 0px 20px 20px;
+    -o-border-radius: 0px 0px 20px 20px;
+}
+
+#div4 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+#div5 {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: black;
+}

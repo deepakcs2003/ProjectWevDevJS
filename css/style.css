@@ -1,0 +1,145 @@
+        /* h1 {
+        color: #ffff00;
+}
+
+p {
+        color: red;
+        background-color: blue;
+}
+
+    button {
+        color: white;
+        background-color: black;
+} */
+        /* h1 {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+    /* //background-color: black; */
+        /* text-decoration: solid;
+font-weight: 600;
+font-size: 15px;
+font-family: copperplate;
+
+}
+*/
+        /* * {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+} */
+        /* h3 {
+    color: plum;
+} */
+        
+        h3 {
+            color: #b92b27;
+        }
+        
+        #login {
+            background-color: white;
+        }
+        
+        #signup {
+            background-color: #b92b27;
+            color: white;
+        }
+        
+        .upvote {
+            background-color: rgb(187, 255, 0);
+        }
+        
+        div[id="myId"] p {
+            color: blue;
+        }
+        
+        nav li {
+            background-color: pink;
+        }
+        
+        p+h3 {
+            text-decoration: underline;
+        }
+        
+        .upvote+button {
+            background-color: rgb(106, 106, 226);
+        }
+        
+        div>input {
+            color: black;
+            background-color: pink;
+        }
+        
+        input[type~="is"] {
+            color: red;
+        }
+        
+        input[type~="password"] {
+            color: green;
+        }
+        
+        input[type] {
+            background-color: ghostwhite;
+        }
+        
+        h1::first-letter {
+            color: red;
+        }
+        
+        p::first-line {
+            color: red;
+        }
+        
+        p::selection {
+            background-color: limegreen;
+        }
+        
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        h3:hover {
+            text-decoration: none;
+        }
+        
+        button:active {
+            background-color: pink;
+        }
+        
+        p:active {
+            font-weight: bold;
+            color: black;
+        }
+        
+        input[type="radio"]:checked+label {
+            color: red;
+            font-weight: bold;
+        }
+        
+        p:nth-of-type(2n) {
+            background-color: green;
+        }
+        
+        h3 {
+            background-color: yellow;
+        }
+        
+        h3 {
+            background-color: blue;
+        }

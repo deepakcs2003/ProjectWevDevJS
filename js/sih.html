@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurveda SIH 23</title>
+    <style>
+        /* Overall page styles */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: linear-gradient(to right, #9bcd6e, #edb75d);
+            /* background-image: linear-gradient(#9bcd6e, #edb75d); */
+            /* Light beige background */
+            margin: 0;
+            padding: 0;
+        }
+        /* Header styles */
+        
+        h1 {
+            text-align: center;
+            background-color: #ea955f;
+            /* Warm orange header background */
+            color: #fff;
+            padding: 20px;
+            margin-top: 0;
+        }
+        /* Form styles */
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            border: 1px solid #ea955f;
+            /* Highlight border color */
+        }
+        /* Radio button styles */
+        
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        /* Submit button styles */
+        
+        input[type="submit"] {
+            background-color: #ea955f;
+            /* Orange button */
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #d36c3d;
+            /* Darker orange on hover */
+        }
+        /* Login container styles */
+        
+        .login-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            margin: 20px auto;
+        }
+        /* Login header styles */
+        
+        .login-header {
+            text-align: center;
+            font-size: 24px;
+            color: #009688;
+            margin-bottom: 20px;
+        }
+        /* Login form styles */
+        
+        .login-form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        /* Login button styles */
+        
+        .login-form input[type="submit"] {
+            background-color: #009688;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .login-form input[type="submit"]:hover {
+            background-color: #007a63;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Biodata</h1>
+    <form>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name">
+
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age">
+
+        <label>Sex:</label>
+        <input type="radio" id="Male" name="Sex">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Sex">
+        <label for="Female">Female</label>
+
+        <label for="Region">Region:</label>
+        <input type="text" id="Region" placeholder="For example, Vidharbha">
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="login-container">
+        <div class="login-header">Ayurveda Website Login</div>
+        <form class="login-form" action="index.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>

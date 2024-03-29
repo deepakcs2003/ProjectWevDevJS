@@ -1,0 +1,112 @@
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(34, 70, 218);
+    text-align: center;
+}
+
+.text {
+    color: red;
+}
+
+.login {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    z-index: 0;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    left: 370px;
+    background-color: white;
+    display: none;
+    transition: display 2s ease-in-out;
+    -webkit-transition: display 2s ease-in-out;
+    -moz-transition: display 2s ease-in-out;
+    -ms-transition: display 2s ease-in-out;
+    -o-transition: display 2s ease-in-out;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.user {
+    width: 98.4%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.loginbtn {
+    width: 100%;
+    height: 30px;
+    background-color: #79f777;
+    margin: 0px;
+}
+
+.cut {
+    width: 50px;
+    height: 40px;
+    font-size: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.cut:hover {
+    background-color: dimgrey;
+}
+
+.can {
+    position: absolute;
+    bottom: 20px;
+}
+
+.cancel {
+    width: 100px;
+    height: 40px;
+    background-color: #f74307;
+    font-size: 20px;
+}
+
+.forgot {
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+    font-size: 25px;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+span:hover {
+    color: green;
+}
+
+.cancel:hover {
+    background-color: green;
+}
+
+.btn:hover {
+    background-color: green;
+}
